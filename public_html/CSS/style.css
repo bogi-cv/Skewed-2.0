@@ -1,0 +1,583 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Dec 8, 2021, 9:42:54 PM
+    Author     : bogi_cv
+*/
+
+/*
+
+font-family: 'Myriad Pro', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+
+
+ <!-- start --> <section class="slider " style="background-image: linear-gradient(to right,rgba(0,0,0, 0.75), rgba(0,0,0, 0.75) ), url(./images/slider/slide-01.jpg)">
+            <div class="container text-center">
+                
+                <h1 class="slider-title mx-auto mb-0">Skewed is a <span>slightly wonky</span> landing page template</h1>
+                
+            </div>
+            
+        </section><!-- end -->
+
+<i class="far fa-flag"></i>
+<i class="far fa-smile"></i>
+<i class="far fa-lightbulb"></i>
+<i class="far fa-moon"></i>
+
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-google-plus-g"></i>
+<i class="fas fa-basketball-ball"></i>
+<i class="fab fa-instagram"></i>
+
+
+
+
+
+*/
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1188px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #B1B1B1;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #222222;
+}
+
+a, a:visited, a:hover, a:active {
+    color:inherit;
+    text-decoration: none;
+}
+
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-warning{
+    color:  #F7CC4B !important;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border: 1px solid #F7CC4B;
+    background-color: transparent;
+    text-decoration: none;
+    padding:  13px 38px;
+    border-radius: 0;
+}
+
+.btn-warning:hover{
+    color: #222222 !important;
+}
+
+.section-title-myriad-1{
+    font-family: 'Myriad Pro', sans-serif;
+    font-weight: 400;
+}
+
+.section-title-myriad-2{
+    font-family: 'Myriad Pro', sans-serif;
+    font-weight: 400;
+    font-size:20px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+}
+
+
+.section-title-roboto-1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.section-title-roboto-2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size:20px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+}
+
+/*header START*/
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+
+.navbar-dark .navbar-toggler{
+    color: #fff;
+    border-color: #fff;
+
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    font-family: 'Myriad Pro', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 1px solid transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav  .active{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+
+/*Header END*/
+
+/*SLIDE START*/
+
+
+
+.slider{
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 175px 0 226px 0;
+    position: relative;
+}
+
+.slider h1{
+    color:#FFFFFF;
+}
+
+.slider .carousel{
+    max-height: 600px;
+    position: unset;
+}
+
+.slider .carousel .carousel-inner{
+    position:unset;
+}
+
+.slider .carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-inline: 16px;
+}
+
+.slider .carousel-indicators{
+    bottom: 100px;
+}
+
+.slider .carousel-item .slider-title{
+    max-width: 845px;
+    font-weight: 400;
+}
+
+
+.slider .carousel-item .slider-title span{
+    color: #f7cd4a;
+}
+
+/*SLIDER END*/
+
+/*ABOUT US START*/
+
+.about-us .section-title-myriad-2{
+    color: #F7CC4B;
+    margin-bottom: 40px;
+}
+
+.about-us .section-title-myriad-1{
+    color: #222222;
+    font-size: 40px;
+
+}
+
+/*VIDEO PRESENTATION START*/
+
+.video-presentation{
+    clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
+    background-color: #F7CC4B;
+    padding: 161px 0 223px 0;
+}
+
+.video-presentation .section-title-myriad-1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+.video-presentation .section-title-myriad-2{
+    color: #222222;
+}
+
+.video-presentation .ratio iframe{
+    max-width: 880px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*TEAM START*/
+
+.team{
+    padding: 114px 0 72px 0
+}
+
+.team .section-title-roboto-1{
+    color:#222222;
+    font-size: 40px;
+}
+
+.team .section-title-roboto-2{
+    color: #F7CC4B;
+}
+
+.team .team-member{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    font-weight: 300;
+    color: #222222;
+}
+
+
+.team .team-member-position{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    font-weight: 400;
+    color:#F7CC4B;
+
+}
+
+.team .row figure{
+    width: 223px;
+    height:223px;
+    border-radius: 50%;
+    position:relative;
+    display: inline-block;
+}
+
+.team .row figure .hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F7CC4B;
+    border-radius: 50%;
+    align-items: center;
+    display:none;
+}
+
+.team .row figure .hover a{
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    border-radius: 50%;
+    line-height: 48px;
+    width:48px;
+}
+
+.team .row figure .hover .link-menu{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%)
+}
+
+.team .row figure:hover .hover{
+    display: block;
+}
+
+.team .carousel-indicators [data-bs-target]{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #222222;
+    opacity: 0.25;
+    margin-inline: 8px;
+    border: 2px solid transparent;
+}
+
+
+
+.team .carousel-indicators .active{
+    opacity: 0.5;
+}
+
+.team .carousel-inner .carousel-item{
+    margin-bottom: 65px;
+}
+/*TEAM END*/
+
+/*PARALLAX START*/
+
+.parallax{
+    padding: 264px 0 217px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+
+.parallax .section-title-roboto-1{
+    color:#FFFFFF;
+    font-weight: 300;
+}
+
+.parallax .section-title-myriad-2{
+    color: #F7CC4B;
+}
+
+.parallax p{
+    max-width: 573px;
+    display: block;
+}
+
+/*PRINCIPLES START*/
+
+.principles h4{
+    color:#F7CC4B;
+}
+
+.principles{
+    padding: 87px 0 130px 0;
+}
+
+/*PORTFOLIO START*/
+
+.portfolio{
+    background-color: #F7CC4B;
+    padding: 126px 0 146px 0;
+    clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+}
+
+.portfolio .section-title-roboto-1{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.portfolio .section-title-roboto-2{
+    color: #444444;
+    font-weight: 300;
+}
+
+
+
+.portfolio .portfolio-item a{
+    background-color: transparent;
+    width:100%;
+    height: 100%;
+    font-size: 18px;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255, 0.5);
+    color:#101010;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.portfolio .portfolio-item:hover a{
+    display: block;
+}
+
+.portfolio .carousel-indicators [data-bs-target]{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    opacity: 0.5;
+    margin-inline: 8px;
+    border: 2px solid transparent;
+}
+
+.portfolio .carousel-indicators .active{
+    opacity: 1;
+}
+
+.portfolio .carousel-inner .carousel-item{
+    margin-bottom: 75px;
+}
+
+/*ACHIEVEMENTS START*/
+
+.achievements{
+    padding: 95px 0;
+}
+
+.achievements .section-title-roboto-1{
+    color: #222222;
+}
+
+.achievements .section-title-myriad-2{
+    color: #F7CC4B;
+}
+
+.achievements .achievements-item a{
+    color: #101010;
+    font-size: 86px;
+    line-height: 101px;
+}
+
+.achievements .achievements-item h2{
+    font-size: 84px;
+    color: #F7CC4B;
+    font-weight: 400;
+}
+
+.achievements .achievements-item p{
+    color: #666666;
+}
+
+.achievements .achievements-item{
+    margin-bottom: 94px;
+}
+
+.achievements .border{
+
+    max-width: 1180px;
+    height: 2px;
+    background-color: #EEEEEE;
+    margin-bottom: 80px;
+}
+
+.achievements .section-title-myriad-1{
+    font-weight: 400;
+    color: #222222;
+    max-width: 929px;
+    margin-bottom: 34px;
+}
+
+.achievements .section-title-myriad-1 span{
+    color:#F7CC4B;
+}
+
+
+.achievements .carousel-indicators [data-bs-target]{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #222222;
+    opacity: 0.25;
+    margin-inline: 8px;
+    border: 2px solid transparent;
+}
+
+
+
+.achievements .carousel-indicators .active{
+    opacity: 0.5;
+}
+
+.achievements .carousel-inner .carousel-item{
+    margin-bottom: 65px;
+}
+
+/*FORM START*/
+
+.form{
+    background-color: #F7CC4B;
+    padding: 125px 0 55px 0;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
+}
+
+.form .section-title-roboto-1{
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+.form .section-title-roboto-2{
+    color: #222222;
+    font-weight: 400;
+}
+
+.form .form-group{
+    max-width: 900px;
+}
+
+.form .form-group .form-control{
+
+    padding: 20px 0 20px 20px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.form .form-group .btn:focus{
+    box-shadow: none;
+}
+
+.form .form-group .btn{
+    padding: 20px 0px 20px 0px;
+    border-radius: 0;
+    max-width: 184px;
+    width:100%;
+    display: block;
+}
+
+.form .form-group .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFFFFF;
+    opacity: 1; /* Firefox */
+}
+
+.form .form-group .form-control:focus{
+    box-shadow: none;
+}
+
+.form .row {
+    --bs-gutter-x: 1rem;
+}
+
+/* Footer Start*/
+
+.footer{
+    background-color: #222222;
+    padding: 55px 0;
+}
+
+
+
+.footer nav a{
+    color: #FFFFFF;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    margin-inline: 6px;
+}
+
+.footer p span{
+    color: #F7CC4B;
+}
+
+.footer p{
+    color: #BBBBBB;
+}

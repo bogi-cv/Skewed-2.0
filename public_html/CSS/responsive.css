@@ -1,0 +1,150 @@
+@media(min-width: 576px){
+    /*SM Breakpoint*/
+    
+    .slider .slider-title{
+    font-size: 62px;
+    line-height: 78px;}
+    
+    .about-us .section-title-myriad-1{
+    font-size: 50px;
+}
+
+.team .section-title-roboto-1{
+    font-size: 50px;
+       
+}
+
+.portfolio .section-title-roboto-1{
+    
+    font-size: 50px;
+}
+
+.achievements .section-title-roboto-1{
+    font-size: 50px;
+}
+    
+}
+
+
+@media(min-width: 768px){
+    /*MD Breakpoint*/
+    
+    .slider .slider-title{
+    font-size: 72px;
+    line-height: 88px;}
+    
+    .slider{
+        padding-top: 195px;
+         margin-bottom: 80px;
+    }
+    
+    .about-us{
+    margin-bottom: 60px !important;
+    
+    
+}
+    .video-presentation .section-title-myriad-1{
+        font-size: 60px;
+    }
+    
+    .team .section-title-roboto-1{
+    font-size: 60px;
+}
+
+.team .section-title-roboto-2{
+    margin-bottom: 70px;
+}
+
+.parallax{
+    padding: 284px 0 237px 0;}
+
+.principles .section-title-roboto-1{
+    font-size: 50px;
+}
+
+}
+
+
+@media(min-width: 992px){
+    /*LG Breakpoint*/
+    
+    .slider .slider-title{
+    font-size: 82px;
+    line-height: 98px;}
+    
+     .slider .carousel-indicators{
+        bottom: 130px;
+    }
+    
+    .slider{
+        padding-top: 215px;
+        margin-bottom: 100px;
+    }
+    
+    .about-us .section-title-myriad-1{
+    font-size: 60px;
+}
+.about-us{
+    margin-bottom: 90px !important;
+}
+
+.team .section-title-roboto-2{
+    margin-bottom: 100px !important;
+}
+
+.parallax{
+    padding: 304px 0 257px 0;}
+
+.principles .section-title-roboto-1{
+    font-size: 60px;
+}
+    
+
+.portfolio{
+    padding: 146px 0 166px 0;
+}
+
+.portfolio .section-title-roboto-1{
+    font-size: 60px;
+}
+
+.achievements .section-title-roboto-1{
+    font-size: 60px;
+}
+
+.form .section-title-roboto-1{
+    color: #FFFFFF;
+    font-size: 60px;
+}
+
+}
+
+@media(min-width: 1200px){
+    /*XL Breakpoint*/
+    
+    .slider{
+        padding-top: 255px;
+         margin-bottom: 120px;
+    }
+    .about-us{
+    margin-bottom: 120px !important;
+}
+
+.parallax{
+    padding: 324px 0 277px 0;}
+
+.portfolio{
+   
+    padding: 166px 0 186px 0;
+    
+}
+     
+}
+
+
+
+@media(min-width: 1400px){
+    /*XXL Breakpoint*/
+    
+    
+}
